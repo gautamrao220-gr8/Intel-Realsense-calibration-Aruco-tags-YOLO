@@ -169,7 +169,7 @@ def main():
 
             color = np.asanyarray(color_frame.get_data())
 
-            # ✅ Undistort using calibration
+            # Undistort using calibration
             color = cv2.undistort(color, calib["camera_matrix"], calib["dist_coeffs"])
 
             # YOLO detection
@@ -200,3 +200,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
