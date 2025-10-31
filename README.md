@@ -3,3 +3,4 @@
 - Run OpenCV calibration, save intrinsics to disk.
 - Start detection loop: detect objects with YOLO and compute their 3D position w.r.t the camera
   using the depth frame and calibration intrinsics.
+-use the provided chessboard image for calibration or use custom size and update changes in code.
